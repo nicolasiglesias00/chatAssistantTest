@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- ... existing meta tags ... -->
+    <title>Casa Serenidad - Asistente</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Agregamos fuente moderna de Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <img src="logo.png" alt="Casa Serenidad" class="logo" width="50" height="50">
+            <h1>Asistente Casa Serenidad</h1>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <!-- Mensajes se insertarán aquí dinámicamente -->
+        </div>
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Escribe tu mensaje aquí...">
+            <button id="sendButton">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2">
+                    <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="chat.js"></script>
+</body>
+
+</html>
