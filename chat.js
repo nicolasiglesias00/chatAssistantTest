@@ -110,7 +110,7 @@ async function sendMessage() {
         appendMessage(userMessage, 'user-message');
         userInput.value = '';
 
-        const response = await fetch('http://localhost:3000/chat', {
+        const response = await fetch('https://5d55-80-102-49-147.ngrok-free.app/chat', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
