@@ -118,7 +118,7 @@ async function sendMessage() {
         sendButton.disabled = true;
         appendMessage(userMessage, 'user-message');
         userInput.value = '';
-
+        console.log("hola")
         const response = await fetch('https://0880-80-102-49-147.ngrok-free.app/chat', {
             method: 'POST',
             headers: {
